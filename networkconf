@@ -1,0 +1,12 @@
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp2s0:
+      addresses:
+        - 10.100.38.106/24
+      gateway4: 10.100.38.254
+      nameservers:
+        addresses:
+          - 10.251.5.1
+          - 10.251.5.2
