@@ -1,0 +1,14 @@
+
+network:
+    ethernets:
+        ens192:
+            addresses:
+            - 172.16.2.130/24
+            nameservers:
+                addresses:
+                - 10.251.5.1
+                search: []
+            routes:
+            -   to: default
+                via: 172.16.2.1
+    version: 2
